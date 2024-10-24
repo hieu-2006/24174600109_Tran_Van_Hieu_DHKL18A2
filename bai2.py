@@ -7,4 +7,4 @@ if x > 0:
     f_x = math.log(4, x) + math.log(2, x)
     print(f"Gia tri can tim f(x) = {f_x:.2f}")
 else:
-    print("Gia tri x phai lon hon 0")
+    print("Gia tri x phai lon hon 0.")
