@@ -38,5 +38,32 @@ a = 10
 if a > 5:
     print("Gia tri a thoa man dieu kien")
     b = a + 1
+
 print("Ket thuc chuong trinh")
 
+#Đối với if...else khi xét điều kiện
+# Nếu điền Kiện đúng (True) thì câu lệnh của if sẽ hoạt động
+# Nếu điền Kiện sai (False) thì câu lệnh của else sẽ hoạt động
+
+a = 10
+if a > 5:
+    print("Gia tri a thoa man")
+else:
+    print("Gia tri a khong thoa man")
+print("Ket thuc chuong trinh")
+
+
+#Đối với if...elif...else
+# Nếu điều điện if đúng (True) thì câu lệnh if sẽ hoạt động 
+# Nếu điền Kiện sai (False) thì xét tiếp điều kiện của elif
+#     + Nếu điều kiện của elif đúng (True) thì câu lệnh elif hoạt động
+#     + Nếu điều kiện của elif sai (False) thì câu lệnh else hoạt động
+
+a = 10
+if a > 0:
+    print("a la so duong")
+elif a < 0:
+    print("a la so am")
+else a = 0
+    print("a la so 0")
+print("Ket thuc chuong trinh")           
